@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number Calculator</title>
+</head>
+<body>
+<h1>Prime Number Calculator</h1>
+<form id="primeForm">
+    <label for="boundary">Boundary:</label>
+    <input type="number" id="boundary" name="boundary">
+    <button type="button" onclick="calculatePrimes()">Calculate</button>
+</form>
+
+<h2>Result:</h2>
+<p id="result"></p>
+
+<script>
+    function calculatePrimes() {
+        const boundary = document.getElementById('boundary').value;
+        fetch(`/api/primes?boundary=${boundary}`)
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('result').innerText = data.join(", ");
+            });
+    }
+</script>
+</body>
+</html>

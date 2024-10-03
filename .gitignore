@@ -1,0 +1,21 @@
+# Maven specific files
+target/
+*.jar
+*.war
+
+# IntelliJ specific files
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled class files
+*.class
+
+# Other files to ignore
+*.class
