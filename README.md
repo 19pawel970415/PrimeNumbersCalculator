@@ -17,7 +17,7 @@ The Prime Numbers Calculator is a web application built using Spring Boot that a
 
 2. **Navigate to the project directory**:
    ```bash
-   cd PrimeNumbersCalculator
+   cd your_path_to_dir_with_project/PrimeNumbersCalculator
    ```
 
 3. **Run the application** (one command):
@@ -46,6 +46,7 @@ PrimeNumbersCalculator/
 │   │   └── resources/
 │   │       └── templates/
 │   │           └── index.html
+|   |       └── application.properties
 ├── pom.xml
 └── README.md
 ```
