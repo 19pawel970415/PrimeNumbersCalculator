@@ -21,7 +21,7 @@ OpenJDK Runtime Environment Temurin-11.0.18+7 (build 11.0.18+7-LTS)
 OpenJDK 64-Bit Server VM Temurin-11.0.18+7 (build 11.0.18+7-LTS, mixed mode, sharing)
 ```
 
-Verify Maven installation (11 or higher SAME AS THE ABOVE):
+Verify Maven installation (Java version 11 or higher SAME AS THE ABOVE):
 
 ```bash
 $ mvn -v
